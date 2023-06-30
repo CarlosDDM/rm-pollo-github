@@ -419,7 +419,12 @@ ion-icon {
 
 @media screen and (max-width:1920px){
     .conteiner{
-        min-height: 80vh;
+        min-height: 100vh;
+        display:grid;
+    }
+    .contato{
+        justify-content: center;
+        align-items: center;
     }
 }
 
