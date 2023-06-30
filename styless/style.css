@@ -417,6 +417,12 @@ ion-icon {
     color: var(--cor-preta-padrao);
 }
 
+@media screen and (max-width:1920px){
+    body{
+        min-height: 100vh;
+    }
+}
+
 @media screen and (max-width:1290px) {
     .alinhamento-produtos {
         grid-template-columns: 1fr;
